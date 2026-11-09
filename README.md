@@ -1,8 +1,8 @@
 # spltxt
 
-**Tiny, customizable terminal splash text.** Inspired by the playful yellow splash messages shown when Minecraft starts.
+**A tiny, customizable terminal splash text.** Inspired by the playful yellow splash messages shown when Minecraft starts.
 
-`spltxt` is a small, local command-line utility. Its default command prints exactly one randomly selected sentence—no label, timestamp, counter, or decoration. Version **0.1** targets **Kitty + Fish** for automatic startup messages.
+`spltxt` is a small, local command-line utility. Its default command prints exactly one randomly selected sentence—no label, timestamp, counter, or decoration. Version **0.1R** targets **Kitty + Fish** ( Other terminal is considering) for automatic startup messages.
 
 ## Features
 
@@ -113,6 +113,5 @@ Run the test suite with:
 python -m unittest discover -s tests -v
 ```
 
-## License
-
-MIT. See [LICENSE](LICENSE).
+## Licence
+**Nope** (or not yet)
