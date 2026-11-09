@@ -1,19 +1,15 @@
 # spltxt
 
-**A tiny, customizable terminal splash text.** Inspired by the playful yellow splash messages shown when Minecraft starts.
+**A tiny, customizable terminal splash text.** Inspired by the Splash Minecraft title :) 
 
-`spltxt` is a small, local command-line utility. Its default command prints exactly one randomly selected sentence—no label, timestamp, counter, or decoration. Version **0.1R** targets **Kitty + Fish** ( Other terminal is considering) for automatic startup messages.
+`spltxt` is a small, local command-line utility. Its default command prints exactly one randomly selected sentence—no label, timestamp, counter, or decoration. Version **0.1R** only make for **Kitty + Fish** ( Other terminal is considering) for automatic funky startup messages.
 
 ## Features
 
-- One random sentence when you run `spltxt`.
-- Optional Kitty-only automatic display when an interactive Fish shell starts.
+- One random sentence on terminal when you run `spltxt`.
 - Add and delete sentences from the command line.
-- Edit the collection with your `$VISUAL` or `$EDITOR`.
-- Import UTF-8 `.txt` and `.docx` collections.
+- **Editable**
 - Import asks whether to merge, replace, or cancel when a collection already exists.
-- No network access, background service, third-party Python packages, or root privileges.
-- Uninstalling preserves your personal message collection.
 
 ## Requirements
 
@@ -24,9 +20,14 @@
 
 The command itself is terminal-independent. The automatic integration checks Kitty's `KITTY_WINDOW_ID` environment variable and therefore does not print in other terminal emulators. Kitty documents this variable in its [environment variable glossary](https://sw.kovidgoyal.net/kitty/glossary/).
 
+## Bug report
+
+**FIX IT YOUR SELF!**
+I mean this project is coded by someone who have absolutely no brain atom so.... Report to me if there any error or just do it yourself
+
 ## Install
 
-Clone or download this repository, then run:
+Clone or download this repository,then run:
 
 ```bash
 chmod +x install.sh
@@ -107,11 +108,15 @@ The command asks for confirmation, removes the installed executable and the mana
 
 ## Development / tests
 
-Run the test suite with:
+Run the test suite with (if you actually want):
 
 ```bash
 python -m unittest discover -s tests -v
 ```
+# Important note (maybe)
+
+This project is not fully human done, about 20% of it is "Helper" (including this readme)
+so please don't toxic
 
 ## Licence
-**Nope** (or not yet)
+**Nope** (or not yet,who know :p )
